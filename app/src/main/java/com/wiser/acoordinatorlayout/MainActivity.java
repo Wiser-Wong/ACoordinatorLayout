@@ -38,7 +38,14 @@ public class MainActivity extends AppCompatActivity {
             case 2:
                 intent.setClass(this, ViewPagerCeilingActivity.class);
                 break;
+            case 3:
+                intent.setClass(this, ToolBarCeilingActivity.class);
+                break;
         }
         startActivity(intent);
+    }
+
+    public void skipToolBar(View view) {
+        skipActivity(3);
     }
 }

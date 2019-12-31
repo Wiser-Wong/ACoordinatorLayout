@@ -23,4 +23,9 @@
         android:layout_height="wrap_content"
         android:onClick="skipViewPager"
         android:text="跳转ViewPager吸顶" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="skipToolBar"
+        android:text="跳转ToolBar吸顶透明" />
 </LinearLayout>
